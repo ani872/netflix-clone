@@ -28,11 +28,11 @@ body {
     top: 0;
     background-color: black;
 }
-  /* Netflix Logo */
+  
 .logo img {
-    width: 150px;   /* size control */
+    width: 150px;  
     height: auto;
-    margin-top: 20px; /* একটু নিচে নামানো */
+    margin-top: 20px; 
     position: absolute;
     z-index: 10;
     margin-right: auto;
@@ -134,7 +134,7 @@ hero-buttons {
     background-color: #f6121d;
 }
 
-/* small sign-in button */
+
 .btn-red-sm {
     background-color: #e50914;
     color: rgb(236, 230, 230);
@@ -162,7 +162,7 @@ hero-buttons {
     max-width: 80%;
 }
 
-/* এখানে margin-left দিলাম */
+
 .hero-buttons .btn-red {
             background-color: #e50914;
             color: white;
@@ -187,11 +187,11 @@ hero-buttons {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 10px;
-    appearance: none;  /* default arrow hide */
+    appearance: none;  
     position: relative;
 }
 
-/* custom white arrow add */
+
 .language {
     background-image: url("/images/bg1.jpg");
     background-repeat: no-repeat;
@@ -215,7 +215,7 @@ hero-buttons {
     font-size: 14px;
     border-radius: 4px;
     cursor: pointer;
-    appearance: none;  /* default arrow hide */
+    appearance: none;  
     background-image:url("/images/bg1.jpg");
     background-repeat: no-repeat;
     background-position: right 8px center;
@@ -294,7 +294,7 @@ hero-buttons {
     transform: scale(1.1);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
     .carouselCard {
         width: 145px;
@@ -327,7 +327,7 @@ hero-buttons {
     }
 }
 
-/* Other existing styles */
+
 .planSection,
 .reasonToJoinSection,
 .faqSection,
@@ -553,7 +553,7 @@ hero-buttons {
     }
 }
 .faqCard{
-    /* border: 2px solid red; */
+    
     width: 100%;
 
     
@@ -564,7 +564,7 @@ hero-buttons {
   background: #222;
   border-radius: 6px;
   overflow: hidden;
-  min-height: 70px;   /* ✅ সব card সমান */
+  min-height: 70px;   
 }
 
 
@@ -572,7 +572,6 @@ hero-buttons {
 .faqAnswer{
     padding: 2rem;
     border-radius: 10px;
-    /* border: 1px solid white; */
     margin-bottom: 20px;
     background-color: #2e2e2e;
 }
@@ -581,7 +580,7 @@ hero-buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 70px;  /* সব প্রশ্নের height equal হবে */
+    min-height: 70px;  
 }
 
 .faqQuestion span{
@@ -597,7 +596,7 @@ hero-buttons {
     cursor: pointer;
 }
 
-/* Jab faqQuestion p hover ho toh faqAnswer dikh jaye */
+
 .faqCard:hover .faqAnswer {
     display: block;
     cursor: pointer;
@@ -670,7 +669,7 @@ hero-buttons {
     gap: 8px;
     transition: background-color 0.3s ease;
     white-space: nowrap;
-    margin-left: 10px;   /* এখানেই মূল পরিবর্তন */
+    margin-left: 10px;   
 }
 
 .getStartedButton:hover {
@@ -693,7 +692,7 @@ hero-buttons .btn-red {
 footer {
     background-color: #000;
     color: #757575;
-    padding: 50px 15% 30px;  /* উপরে-নিচে padding */
+    padding: 50px 15% 30px;  
     font-size: 14px;
     justify-content: center;
 }
@@ -709,8 +708,8 @@ footer .questions a {
 
 footer .footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 কলাম */
-    gap: 20px; /* কলামগুলোর মাঝে gap */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
 }
 
 footer .footer-item {
@@ -730,7 +729,7 @@ footer .footer-item a:hover {
     color: #999;
 }
 
-/* নিচের Language dropdown + text */
+
 footer .language-select {
     margin-top: 30px;
 }
@@ -750,4 +749,5 @@ footer p {
 .footer-text {
   font-size: 1.2rem;
 }
+
 
