@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("/images/bg1.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+     position: relative;
+    
+}
+
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity:0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+  /* Netflix Logo */
+.logo img {
+    width: 150px;   /* size control */
+    height: auto;
+    margin-top: 20px; /* একটু নিচে নামানো */
+    position: absolute;
+    z-index: 10;
+    margin-right: auto;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 230px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px ;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+
+.hero-buttons .btn-red:hover {
+    background-color: #f6121d;
+}
+
+/* small sign-in button */
+.btn-red-sm {
+    background-color: #e50914;
+    color: rgb(236, 230, 230);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-buttons input {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 350px;
+    max-width: 80%;
+}
+
+/* এখানে margin-left দিলাম */
+.hero-buttons .btn-red {
+            background-color: #e50914;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            white-space: nowrap;
+        }
+.hero-buttons .btn-red:hover {
+    background-color: #f6121d;
+}
+ .language {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid gray;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    appearance: none;  /* default arrow hide */
+    position: relative;
+}
+
+/* custom white arrow add */
+.language {
+    background-image: url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+}
+
+.language-select {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.language {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid gray;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    appearance: none;  /* default arrow hide */
+    background-image:url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+}
+
+.carouselSection {
+    padding: 60px 0;
+    background-color: #000;
+    color: white;
+}
+
+.carouselSection h2 {
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.carouselCardConatiner {
+    height: 100%;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 6px;
+    padding: 0 0.8rem;
+    flex-wrap: nowrap;
+}
+
+.carouselCard {
+    width: 160px;
+    height: 240px;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.carouselCard:hover {
+    transform: scale(1.05);
+}
+
+.carouselNumberContainer {
+    position: absolute;
+    left: -12px;
+    top: -8px;
+    z-index: 2;
+}
+
+.carouselNumberContainer span {
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carouselImageContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carouselImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.carouselCard:hover .carouselImageContainer img {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .carouselCard {
+        width: 145px;
+        height: 220px;
+    }
+    
+    .carouselNumberContainer span {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carouselCardConatiner {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 4px;
+    }
+    
+    .carouselCard {
+        width: 130px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+    
+    .carouselSection h2 {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+}
+
+/* Other existing styles */
+.planSection,
+.reasonToJoinSection,
+.faqSection,
+.getStartedSection{
+    color: white;
+}
+
+.planSection h2,
+.reasonToJoinSection h2,
+.faqSection h2{
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+
+.plansConatiner,
+.reasonsConatiner,
+.faqCardsContainer{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+
+.planCard, .reasonCard{
+    height: 38vh;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.372);
+}
+
+.planCard1{
+    background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%, #120c1f 73.39%);
+}
+
+.planCard2{
+    background: linear-gradient(149deg, #1D529D 6.96%, #233371 40.17%, #120c1f 73.39%);
+}
+
+.planCard3{
+    background: linear-gradient(149deg, #792A95 6.96%, #38216C 40.17%, #120c1f 73.39%);
+}
+
+.planCard4{
+    background: linear-gradient(149deg, #922556 6.96%, #391945 40.17%, #120c1f 73.39%);
+}
+
+.planCard h2{
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+
+.planCard h4{
+    font-size: 1.3rem;
+}
+
+.planCard p{
+    font-size: 1rem;
+}
+
+.reasonCard{
+    background: rgb(47, 47, 47);
+    border: none;
+    height: 33vh;
+}
+
+.reasonCard h2{
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.reasonCard p{
+    font-size: 0.9rem;
+}
+
+.reasonCardLowerContent{
+    display: flex;
+    justify-content: end;
+}
+    .reasonsSection {
+    background-color: #000;
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reasonsSection h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: left;
+    color: white;
+}
+
+.reasonsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+}
+
+.reasonCard {
+    background: linear-gradient(135deg, #2d1b69 0%, #1e1e3b 50%, #0f0f23 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reasonCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.reasonCard:nth-child(1) {
+    background: linear-gradient(135deg, #2d1b69 0%, #1e1e3b 50%, #0f0f23 100%);
+}
+
+.reasonCard:nth-child(2) {
+    background: linear-gradient(135deg, #2d1b69 0%, #1e1e3b 50%, #0f0f23 100%);
+}
+
+.reasonCard:nth-child(3) {
+    background: linear-gradient(135deg, #2d1b69 0%, #1e1e3b 50%, #0f0f23 100%);
+}
+
+.reasonCard:nth-child(4) {
+    background: linear-gradient(135deg, #2d1b69 0%, #1e1e3b 50%, #0f0f23 100%);
+}
+
+.reasonContent {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.reasonContent h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 1.3;
+}
+
+.reasonContent p {
+    font-size: 1rem;
+    color: #b3b3b3;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.reasonIcon {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 968px) {
+    .reasonsGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .reasonsSection h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .reasonCard {
+        padding: 1.5rem;
+        min-height: 150px;
+    }
+    
+    .reasonContent h3 {
+        font-size: 1.3rem;
+    }
+    
+    .reasonContent p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .reasonsSection {
+        padding: 60px 15px;
+    }
+    
+    .reasonsSection h2 {
+        font-size: 2rem;
+    }
+    
+    .reasonCard {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    
+    .reasonContent {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .reasonIcon {
+        width: 60px;
+        height: 60px;
+    }
+}
+.faqCard{
+    /* border: 2px solid red; */
+    width: 100%;
+
+    
+}
+.faqCard-item {
+  max-width: 800px;
+  margin: 10px auto;
+  background: #222;
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 70px;   /* ✅ সব card সমান */
+}
+
+
+.faqQuestion,
+.faqAnswer{
+    padding: 2rem;
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    margin-bottom: 20px;
+    background-color: #2e2e2e;
+}
+
+.faqQuestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;  /* সব প্রশ্নের height equal হবে */
+}
+
+.faqQuestion span{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.faqAnswer {
+    display: none;
+
+}
+
+.faqCard:hover{
+    cursor: pointer;
+}
+
+/* Jab faqQuestion p hover ho toh faqAnswer dikh jaye */
+.faqCard:hover .faqAnswer {
+    display: block;
+    cursor: pointer;
+}
+
+.faqCardsContainer{
+    flex-direction: column;
+}
+
+.getStartedSection {
+    background-color: #000;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 8px solid #222;
+}
+
+.getStartedSection h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.emailForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.emailInput {
+    flex: 1;
+    padding: 16px 20px;
+    font-size: 16px;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    min-width: 300px;
+    backdrop-filter: blur(10px);
+}
+
+.emailInput::placeholder {
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.emailInput:focus {
+    border-color: #fff;
+    background-color: rgba(22, 22, 22, 0.9);
+}
+
+.getStartedButton {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    margin-left: 10px;   /* এখানেই মূল পরিবর্তন */
+}
+
+.getStartedButton:hover {
+    background-color: #f40612;
+}
+
+hero-buttons .btn-red {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: #000;
+    color: #757575;
+    padding: 50px 15% 30px;  /* উপরে-নিচে padding */
+    font-size: 14px;
+    justify-content: center;
+}
+
+footer .questions {
+    margin-bottom: 30px;
+}
+
+footer .questions a {
+    color: #757575;
+    text-decoration: none;
+}
+
+footer .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 কলাম */
+    gap: 20px; /* কলামগুলোর মাঝে gap */
+}
+
+footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+footer .footer-item a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer .footer-item a:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
+/* নিচের Language dropdown + text */
+footer .language-select {
+    margin-top: 30px;
+}
+
+footer select {
+    background: transparent;
+    border: 1px solid #333;
+    color: #757575;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+footer p {
+    margin-top: 20px;
+    
+}
+.footer-text {
+  font-size: 1.2rem;
+}
+
