@@ -16,7 +16,7 @@ A simple Netflix Clone built using  HTML and CSS only
 
 ## 📸 Preview  
 
-<img src="<img width="1332" height="530" alt="netflix" src="https://github.com/user-attachments/assets/0c1587dc-fbcc-40a5-9fc3-8f0f17173fb8" />
+<img width="1320" height="530" alt="netflix" src="https://github.com/user-attachments/assets/0c1587dc-fbcc-40a5-9fc3-8f0f17173fb8" />
   
 
 
