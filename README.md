@@ -10,7 +10,7 @@ A simple Netflix Clone built using  HTML and CSS only
 
 ## 📸 Preview  
 
-![Netflix Clone Screenshot] 
+<img src="./netflix.png" alt="Netflix Clone Screenshot" width="800"/>  
   
 
 
